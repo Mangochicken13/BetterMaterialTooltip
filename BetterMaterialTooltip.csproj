@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>BetterMaterialTooltip</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Remove="Localization\de-DE_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\es-ES_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\fr-FR_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\it-IT_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\pl-PL_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\pt-BR_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\ru-RU_Mods_BetterMaterialTooltip.hjson" />
+    <AdditionalFiles Remove="Localization\zh-Hans_Mods_BetterMaterialTooltip.hjson" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Localization\de-DU_Mods_BetterMaterialTooltip.hjson" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+</Project>

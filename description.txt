@@ -1,0 +1,6 @@
+Better Material Tooltip changes the "Material" tooltip of items to stand out more.
+This is done by putting a selected item sprite before it (Default is the workbench), and changing the color of the text.
+Both of these are configurable in the mod's configs.
+
+This mod ***should*** work in all languages, as it (in theory) uses the vanilla translations of the text. 
+If it doesn't please come mention it to me @mangochicken_ on discord; fair warning, I can only read english.

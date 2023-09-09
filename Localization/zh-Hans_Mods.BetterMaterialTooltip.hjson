@@ -1,0 +1,25 @@
+CommonItemTooltip: {
+	// MaterialPlus: "[i:{0}] [c/{1}:{$LegacyTooltip.36}]"
+	// MaterialColorOnly: "[c/{0}:{$LegacyTooltip.36}]"
+}
+
+Configs: {
+	TooltipColorConfig: {
+		// DisplayName: Tooltip Color Config
+
+		TextColor: {
+			// Label: Text Color
+			// Tooltip: ""
+		}
+
+		TooltipItem: {
+			// Label: Tooltip Item
+			// Tooltip: ""
+		}
+
+		UseItem: {
+			// Label: Use Item
+			// Tooltip: ""
+		}
+	}
+}
